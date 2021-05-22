@@ -1,7 +1,7 @@
 ﻿# nodejs-mongodb-question-answer-api
  
- | Left-aligned | Center-aligned | Right-aligned |
+ | methods | request | description |
 | :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
+| POST  | /api/auth/register     | request body : name,email,password     |
 | git diff     | git diff       | git diff      |
  
