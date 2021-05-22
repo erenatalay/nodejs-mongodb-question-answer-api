@@ -13,7 +13,7 @@
   },
   "author": "Eren Atalay",
   "license": "ISC",
-  "homepage": "https://erenatalay.github.io/questions",
+  "homepage": "https://erenatalay.github.io/question",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
