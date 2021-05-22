@@ -1,7 +1,11 @@
 ﻿# nodejs-mongodb-question-answer-api
  
- | methods | request | description |
+ | METHODS | REQUEST | DESCRIPTION |
 | :---         |     :---:      |          ---: |
 | POST  | /api/auth/register     | request body : name,email,password     |
-| git diff     | git diff       | git diff      |
+| POST     | api/auth/login      | login email : admin@gmail.com password : 123456      |
+| GET     | api/auth/logout      | HEADERS : AUTHORIZATION : BEARER:{{ACCESS_TOKEN}}      |
+| GET     | api/auth/users/{id}      | params.id   get single user    |
+| GET     | api/auth/users      | Get All User     |
+| POST     | api/auth/upload      |   HEADERS : AUTHORIZATION : BEARER:{{ACCESS_TOKEN}}  BODY : profile_image = "image name"   |
  
