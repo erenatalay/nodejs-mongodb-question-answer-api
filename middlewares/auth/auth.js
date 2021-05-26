@@ -25,7 +25,7 @@ const getAccesToRoute = (req,res,next) => {
         }
         req.user = {
             id : decoded.id,
-            name : decoded.name
+            name : decoded.name,
         }
         next();
 

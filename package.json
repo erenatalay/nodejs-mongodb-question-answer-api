@@ -7,15 +7,16 @@
     "start": "nodemon server.js",
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "import" : "node dummy-generator --import",
-    "delete" : "node dummy-generator --delete",
-    "deploy" : "gh-pages -d public"
+    "import": "node dummy-generator --import",
+    "delete": "node dummy-generator --delete",
+    "deploy": "gh-pages -d public"
   },
   "author": "Eren Atalay",
   "license": "ISC",
   "homepage": "https://erenatalay.github.io/question",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
