@@ -1,5 +1,8 @@
 ﻿# nodejs-mongodb-question-answer-api
  
+api url = https://question-answers-app.herokuapp.com/
+ 
+ 
  | METHODS | REQUEST | DESCRIPTION |
 | :---         |     :---:      |          ---: |
 | POST  | /api/auth/register     | request body : name,email,password     |
